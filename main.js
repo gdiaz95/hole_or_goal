@@ -107,7 +107,7 @@ while (gameStatus === 'continue') {
     if (gameStatus === 'hat') {
       console.clear();
       myField.print();
-      console.log("Congrats! You found your hat! You win!");
+      console.log("Congrats! You found your goal! You win!");
       break;
     } else if (gameStatus === 'hole') {
       console.clear();
