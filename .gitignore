@@ -1,3 +1,0 @@
-# Ignore node_modules directory and system files
-.DS_Store
-node_modules/

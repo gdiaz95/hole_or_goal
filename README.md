@@ -20,8 +20,6 @@ This project is built using Node.js and leverages the following npm modules:
   - **ansi-regex** (dependency): Helps to match ANSI escape codes in strings.  
   - **strip-ansi** (dependency): Strips ANSI escape codes from strings.
 
-> **Note:** The `node_modules` directory is excluded from version control via a `.gitignore` file. To install the required modules, run `npm install prompt-sync` in the project root.
-
 ## How to Run 
 
 **To run the game:**
