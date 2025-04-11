@@ -15,10 +15,9 @@ At the end of the game, you'll be prompted to "Press any key to exit..." so that
 
 This project is built using Node.js and leverages the following npm modules:
 
-- **prompt-sync**  
-  Used to capture synchronous user input from the command line.  
-  - **ansi-regex** (dependency): Helps to match ANSI escape codes in strings.  
-  - **strip-ansi** (dependency): Strips ANSI escape codes from strings.
+- **prompt-sync** Used to capture synchronous user input from the command line.  
+- **ansi-regex** (dependency): Helps to match ANSI escape codes in strings.  
+- **strip-ansi** (dependency): Strips ANSI escape codes from strings.
 
 ## How to Run 
 
@@ -40,10 +39,10 @@ The game will launch and display a 10x10 grid.
   - **r**: Move right
 
 - **Objective:**  
-  Navigate the grid to locate the hat (`^`). Avoid falling into holes (`O`) or moving outside the field boundaries.
+  Navigate the grid to locate the goal (`^`). Avoid falling into holes (`O`) or moving outside the field boundaries.
 
 - **Game End Conditions:**
-  - **Win:** You find the hat.
+  - **Win:** You find the goal.
   - **Lose:** You fall into a hole or move out of bounds.
 
 After the game concludes, you'll see the final board state and a prompt to "Press any key to exit..." allowing you to review the outcome before the terminal closes.
